@@ -2,7 +2,7 @@ function Debitis() {
 
     return (
         <>
-            <h1>stert</h1>
+            <h1>stertas</h1>
         </>
     )
 }
