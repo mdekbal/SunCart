@@ -1,0 +1,28 @@
+{
+  "name": "suncart",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/mdekbal/SunCart#readme",
+  "bugs": {
+    "url": "https://github.com/mdekbal/SunCart/issues"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdekbal/SunCart.git"
+  },
+  "workspaces": [
+    "client"
+
+  ],
+  "scripts": {
+    "build": "npm run build -w client ",
+    "dev": "concurrently  \"npm run dev -w client\" "
+  },
+  "license": "ISC",
+  "author": "MD Iqbal Hossen",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
