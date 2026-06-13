@@ -1,8 +1,8 @@
-function login() {
+function Login() {
 
     return (
         <>
-            <h1>stert</h1>
+            <h1>Login pages</h1>
         </>
     )
 }
