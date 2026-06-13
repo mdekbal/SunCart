@@ -1,5 +1,8 @@
 {
   "name": "suncart",
+   "engines": {
+    "node": "20.x"
+  },
   "version": "1.0.0",
   "description": "",
   "homepage": "https://github.com/mdekbal/SunCart#readme",
